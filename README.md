@@ -41,8 +41,8 @@ An AI-powered assistant for logistics contract analysis and invoice anomaly dete
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/smart-logistics-assistant.git
-cd smart-logistics-assistant
+git clone https://github.com/yourusername/ContractLeakage_GoogleADK.git
+cd ContractLeakage_GoogleADK
 ```
 
 ### 2. Install Dependencies
