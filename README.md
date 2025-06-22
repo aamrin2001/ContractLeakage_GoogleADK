@@ -14,12 +14,6 @@ This project leverages **Google's Agent Development Kit (ADK)** to build intelli
 * **Invoice Reader Agent**
   Processes Excel-based invoice files, normalizes headers, and extracts structured data in both JSON and CSV formats.
 
-* **Streamlined Runner Scripts**
-  CLI interfaces for triggering each agent independently, saving outputs for manual inspection or further LLM-based validation.
 
-### 🚀 Goals
-
-* Build a modular, local-friendly document intelligence framework
-* Enable automated contract Q\&A and charge validation
 * Support future integration with RAG pipelines or audit dashboards
 
