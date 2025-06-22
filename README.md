@@ -1,19 +1,36 @@
+##📦 Smart Logistics Assistant
+An AI-powered assistant for logistics contract analysis and invoice anomaly detection. This application combines contract document understanding and invoice intelligence using Google ADK (Agents Development Kit), Streamlit for UI, and Gemini models (2.0 & 2.5) for reasoning and LLM-based responses.
 
-# 📄 Contract & Invoice Intelligence using Google ADK
+##🚀 Features
+####📝 Contract QA Assistant
+Extracts and interprets logistics contract PDFs.
 
-This project leverages **Google's Agent Development Kit (ADK)** to build intelligent agents that extract, interpret, and analyze data from logistics contracts and invoices. The goal is to automate document understanding for use cases like contract-based Q\&A, rate extraction, invoice data normalization, and anomaly detection.
+Answers questions about:
 
-### 🔧 Components
+Contract terms, validity, clauses.
 
-* **Contract Reader Agent**
-  Extracts full text and rate tables from scanned or digital logistics contracts (PDFs). Outputs structured text, JSON tables, and CSVs for downstream use.
+Shipment rate lookups using a predefined Apex Rate Table (apex_rate_table.json).
 
-* **Contract QA Agent**
-  Takes user questions and answers them based on the extracted contract content, using LLM reasoning while staying grounded to contract facts.
+Detailed contract summaries using structured headings and bullet points.
 
-* **Invoice Reader Agent**
-  Processes Excel-based invoice files, normalizes headers, and extracts structured data in both JSON and CSV formats.
+Uses Google Gemini 2.5 Flash model for responses.
 
+##📊 Invoice Anomaly Detection
+Detects the following anomalies from invoice Excel files:
 
-* Support future integration with RAG pipelines or audit dashboards
+Overbilling – compares total amount against lane rates and surcharges.
 
+Duplicate Shipments – checks for repeated shipment entries based on key fields.
+
+Surcharge Percentage – calculates (ADDISRCHG / Total_Amount) * 100 and highlights the highest surcharge.
+
+Returns clean markdown tables as output (for easy display).
+
+##🛠️ Tech Stack
+Component	Technology Used
+🧠 LLM Agents	Google ADK (LlmAgent, SequentialAgent)
+🤖 LLM Model	Gemini 2.0 & 2.5 Flash (Google GenAI)
+📄 PDF Parsing	PyPDF2 for full contract text
+📊 Excel Processing	pandas, openpyxl
+🌐 Frontend	Streamlit
+📁 File Support	PDF + Excel + JSON
