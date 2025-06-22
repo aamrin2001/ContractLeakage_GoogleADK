@@ -1,0 +1,182 @@
+[
+    {
+        "From": "West",
+        "To": "West",
+        "Rate": "37.02"
+    },
+    {
+        "From": "West",
+        "To": "North",
+        "Rate": "42.56"
+    },
+    {
+        "From": "West",
+        "To": "South",
+        "Rate": "42.41"
+    },
+    {
+        "From": "West",
+        "To": "East",
+        "Rate": "60.63"
+    },
+    {
+        "From": "West",
+        "To": "North East",
+        "Rate": "69.57"
+    },
+    {
+        "From": "West",
+        "To": "JK",
+        "Rate": "79.43"
+    },
+    {
+        "From": "North",
+        "To": "West",
+        "Rate": "42.41"
+    },
+    {
+        "From": "North",
+        "To": "North",
+        "Rate": "37.17"
+    },
+    {
+        "From": "North",
+        "To": "South",
+        "Rate": "42.41"
+    },
+    {
+        "From": "North",
+        "To": "East",
+        "Rate": "44.24"
+    },
+    {
+        "From": "North",
+        "To": "North East",
+        "Rate": "63.15"
+    },
+    {
+        "From": "North",
+        "To": "JK",
+        "Rate": "59.60"
+    },
+    {
+        "From": "South",
+        "To": "West",
+        "Rate": "42.41"
+    },
+    {
+        "From": "South",
+        "To": "North",
+        "Rate": "42.56"
+    },
+    {
+        "From": "South",
+        "To": "South",
+        "Rate": "37.02"
+    },
+    {
+        "From": "South",
+        "To": "East",
+        "Rate": "69.57"
+    },
+    {
+        "From": "South",
+        "To": "North East",
+        "Rate": "75.88"
+    },
+    {
+        "From": "South",
+        "To": "JK",
+        "Rate": "86.08"
+    },
+    {
+        "From": "East",
+        "To": "West",
+        "Rate": "60.63"
+    },
+    {
+        "From": "East",
+        "To": "North",
+        "Rate": "44.39"
+    },
+    {
+        "From": "East",
+        "To": "South",
+        "Rate": "69.57"
+    },
+    {
+        "From": "East",
+        "To": "East",
+        "Rate": "35.42"
+    },
+    {
+        "From": "East",
+        "To": "North East",
+        "Rate": "56.97"
+    },
+    {
+        "From": "East",
+        "To": "JK",
+        "Rate": "69.57"
+    },
+    {
+        "From": "North East",
+        "To": "West",
+        "Rate": "69.57"
+    },
+    {
+        "From": "North East",
+        "To": "North",
+        "Rate": "63.30"
+    },
+    {
+        "From": "North East",
+        "To": "South",
+        "Rate": "75.88"
+    },
+    {
+        "From": "North East",
+        "To": "East",
+        "Rate": "56.97"
+    },
+    {
+        "From": "North East",
+        "To": "North East",
+        "Rate": "₹37.94"
+    },
+    {
+        "From": "North East",
+        "To": "JK",
+        "Rate": "75.88"
+    },
+    {
+        "From": "JK",
+        "To": "West",
+        "Rate": "79.43"
+    },
+    {
+        "From": "JK",
+        "To": "North",
+        "Rate": "59.75"
+    },
+    {
+        "From": "JK",
+        "To": "South",
+        "Rate": "86.08"
+    },
+    {
+        "From": "JK",
+        "To": "East",
+        "Rate": "69.57"
+    },
+    {
+        "From": "JK",
+        "To": "North East",
+        "Rate": "75.88"
+    },
+    {
+        "From": "JK",
+        "To": "JK",
+        "Rate": "37.02"
+    }
+]
